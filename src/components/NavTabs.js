@@ -1,8 +1,10 @@
 import React from 'react';
 
 function NavTabs(props) {
-  const tabs = ['Portfolio', 'About', 'Resume', 'Contact'];
+  const tabs = ['About', 'Portfolio', 'Resume', 'Contact'];
   return (
+    <div>
+      <h1>Welcome to Zachary McCollum's Portfolio!</h1>
     <ul className="nav nav-tabs">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
@@ -18,6 +20,7 @@ function NavTabs(props) {
         </li>
       ))}
     </ul>
+    </div>
   );
 }
 

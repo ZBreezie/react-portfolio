@@ -4,20 +4,21 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 function Portfolio() {
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, handlePageChange] = useState('About');
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'About':
-        return <About />
+      case 'Portfolio':
+        return <Home />
       case 'Resume':
         return <Resume />
       case 'Contact':
         return <Contact />
       default:
-        return <Home />
+        return <About />
     }
   };
 
@@ -27,6 +28,7 @@ function Portfolio() {
       <div>
           {renderPage(currentPage)}
       </div>
+      <Footer/>
     </div>
   );
 }
