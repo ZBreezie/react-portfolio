@@ -18,11 +18,11 @@ const Home = () => (
       My Work:
     </h2>
     {/* {require("./Images/Profile_picture.jpeg")} */}
-    <div>
-      <a href="https://wolfgarb.github.io/dnd-character-creator/"><img src={require("../../assets/dndGen.jpg")} alt="" /></a>
-      <a href="https://band-gogh.herokuapp.com/"><img src={require("../../assets/band-gogh.png")} alt="" /></a>
-      <a href="https://zbreezie.github.io/run-buddy/"><img src={require("../../assets/runbud.png")} alt="" /></a>
-      <a href="https://zbreezie.github.io/Horiseon/"><img src={require("../../assets/hori.png")} alt="" /></a>
+    <div className="container">
+      <a href="https://wolfgarb.github.io/dnd-character-creator/">DnD Generator<img src={require("../../assets/dndGen.jpg")} alt="" /></a>
+      <a href="https://band-gogh.herokuapp.com/"> Band-Gogh<img src={require("../../assets/band-gogh.png")} alt="" /></a>
+      <a href="https://zbreezie.github.io/run-buddy/">Run Buddy<img src={require("../../assets/runbud.png")} alt="" /></a>
+      <a href="https://zbreezie.github.io/Horiseon/">Horiseon<img src={require("../../assets/hori.png")} alt="" /></a>
       <img src={require("../../assets/placeholder.png")} alt="" />
       <img src={require("../../assets/placeholder.png")} alt="" />
     </div>
