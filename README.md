@@ -9,7 +9,7 @@ A small personal portfolio built with React!
 
 ![](port.png)
 
-## Deployed Link (Forever a work in progress!): https://zbreezie.github.io/react-portfolio/#portfolio
+## Deployed Link (Forever a work in progress!): https://zbreezie.github.io/react-portfolio/
 
 ## Contribution
 Made with ❤️ by Zachary McCollum
